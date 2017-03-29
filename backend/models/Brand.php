@@ -15,7 +15,7 @@ use Yii;
  */
 class Brand extends \yii\db\ActiveRecord
 {
-    public $logo_file;
+//    public $logo_file;
     public static $status_options = ['-1'=>'删除','0'=>'隐藏','1'=>'正常'];
     /**
      * @inheritdoc
@@ -31,12 +31,12 @@ class Brand extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name','sort','status'], 'required'],
+            [['name','sort','status','logo'], 'required'],
             [['intro'], 'string'],
             [['sort', 'status'], 'integer'],
             [['name'], 'string', 'max' => 50],
-//            [['logo'],'string','max'=>255],
-            [['logo_file'],'file','extensions'=>['jpg','png','gif']],
+            [['logo'],'string','max'=>255],
+//            [['logo_file'],'file','extensions'=>['jpg','png','gif']],
         ];
     }
 
@@ -51,7 +51,7 @@ class Brand extends \yii\db\ActiveRecord
             'intro' => '简介',
             'sort' => '排序',
             'status' => '状态',
-            'logo_file'=>'LOGO',
+//            'logo_file'=>'LOGO',
         ];
     }
 }

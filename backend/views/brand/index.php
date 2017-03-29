@@ -15,7 +15,7 @@ echo \yii\bootstrap\Html::a('回收站',['brand/save_delete_index'],['class'=>'b
     <tr>
         <td><?=$model->id?></td>
         <td><?=$model->name?></td>
-        <td><?=\yii\bootstrap\Html::img('@web/'.$model->logo,['style'=>'max-height:30px'])?></td>
+        <td><?=\yii\bootstrap\Html::img('@web'.$model->logo,['style'=>'max-height:30px'])?></td>
         <td><?=\backend\models\Brand::$status_options[$model->status]?></td>
         <td>
             <?=\yii\bootstrap\Html::a('修改',['brand/edit','id'=>$model->id],['class'=>'btn btn-info'])?>
