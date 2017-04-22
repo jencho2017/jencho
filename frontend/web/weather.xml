@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding='utf-8'?>
+
+        <sichuan dn="nay">
+
+    <city url="101271801" time="10:00" humidity="39%" windPower="2级" windDir="南风" windState="微风" temNow="5" tem2="18" tem1="0" stateDetailed="阴" state2="2" state1="2" pyName="ganzi" fontColor="FFFFFF" centername="甘孜" cityname="甘孜" cityY="147.45" cityX="152.85"/>
+
+    <city url="101271901" time="10:00" humidity="46%" windPower="2级" windDir="西南风" windState="微风" temNow="5" tem2="18" tem1="0" stateDetailed="多云" state2="1" state1="1" pyName="aba" fontColor="FFFFFF" centername="阿坝" cityname="阿坝" cityY="138" cityX="276"/>
+
+    <city url="101271701" time="14:00" humidity="46%" windPower="2级" windDir="东北风" windState="微风" temNow="25" tem2="25" tem1="14" stateDetailed="多云转阴" state2="2" state1="1" pyName="yaan" fontColor="FFFFFF" centername="雅安" cityname="雅安" cityY="243" cityX="282"/>
+
+    <city url="101271601" time="14:00" humidity="47%" windPower="2级" windDir="南风" windState="微风" temNow="17" tem2="27" tem1="11" stateDetailed="多云转晴" state2="0" state1="1" pyName="liangshan" fontColor="FFFFFF" centername="凉山" cityname="凉山" cityY="353" cityX="255"/>
+
+    <city url="101270201" time="10:00" humidity="78%" windPower="2级" windDir="北风" windState="西南风小于3级转微风" temNow="15" tem2="31" tem1="13" stateDetailed="多云转晴" state2="0" state1="1" pyName="panzhihua" fontColor="FFFFFF" centername="攀枝花" cityname="攀枝花" cityY="406" cityX="238"/>
+
+    <city url="101270401" time="14:00" humidity="30%" windPower="4级" windDir="东南风" windState="微风" temNow="26" tem2="26" tem1="14" stateDetailed="晴转多云" state2="1" state1="0" pyName="mianyang" fontColor="FFFFFF" centername="绵阳" cityname="绵阳" cityY="153.95" cityX="367.5"/>
+
+    <city url="101272001" time="11:00" humidity="46%" windPower="3级" windDir="东风" windState="微风" temNow="24" tem2="28" tem1="14" stateDetailed="多云转晴" state2="0" state1="1" pyName="deyang" fontColor="FFFFFF" centername="德阳" cityname="德阳" cityY="197" cityX="360"/>
+
+    <city url="101270101" time="11:00" humidity="暂无实况" windPower="暂无实况" windDir="暂无实况" windState="微风" temNow="暂无实况" tem2="28" tem1="14" stateDetailed="晴转多云" state2="1" state1="0" pyName="chengdu" fontColor="FFFF00" centername="成都" cityname="成都" cityY="206" cityX="324"/>
+
+    <city url="101271501" time="11:00" humidity="70%" windPower="2级" windDir="西北风" windState="微风" temNow="21" tem2="28" tem1="15" stateDetailed="晴转多云" state2="1" state1="0" pyName="meishan" fontColor="FFFFFF" centername="眉山" cityname="眉山" cityY="257" cityX="324"/>
+
+    <city url="101271401" time="11:00" humidity="46%" windPower="3级" windDir="西风" windState="南风小于3级" temNow="22" tem2="29" tem1="17" stateDetailed="多云" state2="1" state1="1" pyName="leshan" fontColor="FFFFFF" centername="乐山" cityname="乐山" cityY="297" cityX="319"/>
+
+    <city url="101272101" time="11:00" humidity="57%" windPower="2级" windDir="东风" windState="微风" temNow="21" tem2="25" tem1="13" stateDetailed="晴转多云" state2="1" state1="0" pyName="guangyuan" fontColor="FFFFFF" centername="广元" cityname="广元" cityY="131" cityX="415"/>
+
+    <city url="101270501" time="11:00" humidity="55%" windPower="3级" windDir="北风" windState="微风转北风小于3级" temNow="22" tem2="28" tem1="15" stateDetailed="晴" state2="0" state1="0" pyName="nanchong" fontColor="FFFFFF" centername="南充" cityname="南充" cityY="187" cityX="427"/>
+
+    <city url="101270701" time="11:00" humidity="59%" windPower="2级" windDir="北风" windState="微风" temNow="21" tem2="28" tem1="15" stateDetailed="晴" state2="0" state1="0" pyName="suining" fontColor="FFFFFF" centername="遂宁" cityname="遂宁" cityY="224" cityX="408"/>
+
+    <city url="101271301" time="11:00" humidity="50%" windPower="3级" windDir="东南风" windState="东北风小于3级转微风" temNow="22" tem2="29" tem1="15" stateDetailed="晴转多云" state2="1" state1="0" pyName="ziyang" fontColor="FFFFFF" centername="资阳" cityname="资阳" cityY="245" cityX="372"/>
+
+    <city url="101271201" time="14:00" humidity="35%" windPower="3级" windDir="东南风" windState="微风" temNow="26" tem2="29" tem1="14" stateDetailed="多云" state2="1" state1="1" pyName="neijiang" fontColor="FFFFFF" centername="内江" cityname="内江" cityY="279" cityX="407"/>
+
+    <city url="101270301" time="10:00" humidity="54%" windPower="2级" windDir="西北风" windState="微风" temNow="22" tem2="30" tem1="16" stateDetailed="阴转晴" state2="0" state1="2" pyName="zigong" fontColor="FFFFFF" centername="自贡" cityname="自贡" cityY="294" cityX="364"/>
+
+    <city url="101271101" time="11:00" humidity="51%" windPower="3级" windDir="西北风" windState="微风" temNow="24" tem2="30" tem1="17" stateDetailed="晴转多云" state2="1" state1="0" pyName="yibin" fontColor="FFFFFF" centername="宜宾" cityname="宜宾" cityY="333" cityX="369"/>
+
+    <city url="101270901" time="11:00" humidity="59%" windPower="2级" windDir="东北风" windState="微风" temNow="22" tem2="29" tem1="13" stateDetailed="晴" state2="0" state1="0" pyName="bazhong" fontColor="FFFFFF" centername="巴中" cityname="巴中" cityY="145" cityX="463"/>
+
+    <city url="101270601" time="14:00" humidity="51%" windPower="2级" windDir="西风" windState="微风" temNow="25" tem2="30" tem1="14" stateDetailed="晴" state2="0" state1="0" pyName="dazhou" fontColor="FFFFFF" centername="达州" cityname="达州" cityY="190" cityX="488"/>
+
+    <city url="101270801" time="13:00" humidity="40%" windPower="3级" windDir="南风" windState="微风" temNow="25" tem2="29" tem1="13" stateDetailed="多云" state2="1" state1="1" pyName="guangan" fontColor="FFFFFF" centername="广安" cityname="广安" cityY="230" cityX="450"/>
+
+    <city url="101271001" time="11:00" humidity="64%" windPower="3级" windDir="北风" windState="微风" temNow="23" tem2="29" tem1="17" stateDetailed="晴转多云" state2="1" state1="0" pyName="luzhou" fontColor="FFFFFF" centername="泸州" cityname="泸州" cityY="323" cityX="410"/>
+
+</sichuan>

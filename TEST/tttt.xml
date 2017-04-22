@@ -1,0 +1,7 @@
+<xml>
+    <ToUserName><![CDATA[<?php echo $FromUserName ?>]]></ToUserName>
+    <FromUserName><![CDATA[<?php echo $ToUserName?>]]></FromUserName>
+    <CreateTime>12345678</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[<?php echo $Content?>]]></Content>
+</xml>
