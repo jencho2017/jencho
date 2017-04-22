@@ -2,7 +2,14 @@
 use yii\web\JsExpression;
 $form = \yii\bootstrap\ActiveForm::begin();
 echo $form->field($model,'name');
-echo $form->field($model,'intro')->textarea();
+//echo $form->field($model,'intro')->textarea();
+
+echo $form->field($model,'intro')->widget('common\widgets\ueditor\Ueditor',[
+    'options'=>[
+        'initialFrameWidth' => 850,
+    ]
+]);
+
 //echo $form->field($model,'logo_file')->fileInput();
 echo $form->field($model,'logo')->hiddenInput();
 echo \yii\bootstrap\Html::img($model->logo,['id'=>'img','width'=>300]);

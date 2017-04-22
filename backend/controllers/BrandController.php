@@ -11,6 +11,7 @@ namespace backend\controllers;
  * 品牌控制器
  */
 
+use backend\filter\accessFilter;
 use xj\uploadify\UploadAction;
 use backend\models\Brand;
 use yii\data\Pagination;
@@ -76,7 +77,7 @@ class BrandController extends Controller
         $request = new Request();
         if($request->isPost){
             $model->load($request->post());
-            $model->logo_file = UploadedFile::getInstance($model,'logo_file');
+//            $model->logo_file = UploadedFile::getInstance($model,'logo_file');
             if($model->validate()){
 //                if($model->logo_file){
 //                    $fileName = 'upload/brand'.uniqid().'.'.$model->logo_file->extension;
@@ -158,6 +159,33 @@ class BrandController extends Controller
                     $action->getSavePath(); // "/var/www/htdocs/upload/image/yyyymmddtimerand.jpg"
                 },
             ],
+            'ueditor'=>[
+                'class' => 'common\widgets\ueditor\UeditorAction',
+                'config'=>[
+                    //上传图片配置
+                    'imageUrlPrefix' => "", /* 图片访问路径前缀 */
+                    'imagePathFormat' => "/image/{yyyy}{mm}{dd}/{time}{rand:6}", /* 上传保存路径,可以自定义保存路径和文件名格式 */
+                ]
+            ]
+        ];
+    }
+
+    public function actionTest()
+    {
+        $max = 9999;
+        $len = strlen($max);
+        for ($i=0; $i<=$max; $i++)
+            echo str_pad($i, $len, '0', STR_PAD_LEFT),'<br />';
+    }
+    /**
+     * ACF配合rbac权限控制
+     */
+    public function behaviors()
+    {
+        return [
+            'accessFilter'=>[
+                'class'=>accessFilter::className(),
+            ]
         ];
     }
 }

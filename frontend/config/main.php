@@ -7,6 +7,7 @@ $params = array_merge(
 );
 
 return [
+    'language'=>'zh-CN',
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
@@ -41,9 +42,9 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '/api/getYourFav'=>'/api/get-your-fav',
             ],
         ],
-
     ],
     'params' => $params,
 ];

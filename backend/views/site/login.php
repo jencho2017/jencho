@@ -23,7 +23,15 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <?= $form->field($model, 'password')->passwordInput() ?>
 
+                <?= $form->field($model,'code')->widget(\yii\captcha\Captcha::className(),[
+                    'template'=>'<div class="row"><div class="col-lg-2">{input}</div><div class="col-lg-2">{image}</div></div>',
+                ])?>
+
                 <?= $form->field($model, 'rememberMe')->checkbox() ?>
+
+                <div style="color:#999;margin:1em 0">
+                    If you forgot your password you can <?= Html::a('reset it', ['site/request-password-reset']) ?>.
+                </div>
 
                 <div class="form-group">
                     <?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
